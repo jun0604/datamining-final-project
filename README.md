@@ -52,6 +52,9 @@ FOODSAFETY_KEY=Your_foodsafety_api_key
 DATA_GO_KR_KEY=Your_data_go_kr_api_key
 ```
 
+# 실행 방법
+1. 저장소 클
+
 # 프로젝트 라이브러리 구조 
 
 ```text
