@@ -33,7 +33,7 @@ final_project/
 │
 ├── data_anlaysis/ 
 │	 ├── data/
-│	 │	 ├── momcafe_target_data.csv 			  # STEP 1: 카페 크롤링 수집 원본 데이터셋 (98건)
+│	 │	 ├── momcafe_target_data.csv 			 # STEP 1: 카페 크롤링 수집 원본 데이터셋 (98건)
 │	 │	 ├── momcafe_nlp_ready.csv			    # STEP 2: 도메인 사전 기반 형태소 분석 완료본
 │	 │	 ├── momcafe_final_purified.csv			# STEP 3: 광고성 노이즈 제거 최종 정제 분석본
 │	 │	 └── momcafe_apriori_ruleset.csv		# STEP 4: 추천 엔진 매핑용 연관규칙 룰셋 DB
