@@ -42,18 +42,44 @@ scikit-learn==1.3.0
 mlxtend==0.22.0
 ```
 
-○ env 설정
+# 실행 방법
+1. 저장소 클론
 ```text
-HALLYM_API_KEY=Your_api_key 
-HALLYM_MODEL=Your_api_model 
-HALLYM_BASE_URL=https://factchat-cloud.mindlogic.ai/v1/gateway 
+git clone https://github.com/jun0604/datamining-final-project.git
+cd datamining-final-project
+```
 
-FOODSAFETY_KEY=Your_foodsafety_api_key 
+2. 가상환경 생성
+```text
+conda create -n your_env python=3.11
+conda activate your_env
+```
+
+3. 패키지 설치
+```text
+pip install -r requirement.txt
+```
+
+4. 환경변수 설정
+```text
+프로젝트 루트에서 .env 파일 수
+HALLYM_API_KEY=Your_api_key
+HALLYM_MODEL=Your_api_model
+HALLYM_BASE_URL=https://factchat-cloud.mindlogic.ai/v1/gateway
+
+FOODSAFETY_KEY=Your_foodsafety_api_key
 DATA_GO_KR_KEY=Your_data_go_kr_api_key
 ```
 
-# 실행 방법
-1. 저장소 클
+5. 서비스 실행
+```text
+python app.py
+```
+
+6. 추천 엔진 검
+```text
+python test_case_prove.py
+```
 
 # 프로젝트 라이브러리 구조 
 
