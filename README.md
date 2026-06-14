@@ -76,7 +76,7 @@ DATA_GO_KR_KEY=Your_data_go_kr_api_key
 python app.py
 ```
 
-6. 추천 엔진 검
+6. 추천 엔진 검증
 ```text
 python test_case_prove.py
 ```
