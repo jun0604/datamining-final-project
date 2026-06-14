@@ -87,6 +87,6 @@ final_project/
 │ 	 ├── gradio_ui.py 						        # 사용자 입력 및 결과 출력 UI 구성
 │ 	 └── logo.png 						            # 홈페이지 첫 화면 로고 이미지
 │ 	 
-├── exports/ 								          # PDF 추천 결과 저장 폴더
-└── logs/								              # 추천 과정 Trace 로그 저장 폴더
+├── exports/ 								        # PDF 추천 결과 저장 폴더
+└── logs/								            # 추천 과정 Trace 로그 저장 폴더
 ```
