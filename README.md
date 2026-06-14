@@ -208,3 +208,11 @@ SQLite 기반 관계형 데이터베이스를 구축하여 추천 규칙, 근거
         ↓
 최종 추천 결과 출력
 ```
+
+Copyright
+
+© 2026 Team DDT, Hallym University.
+
+All source code, documentation, database schema, and project materials contained in this repository are protected by copyright law.
+
+Unauthorized commercial redistribution or reproduction without permission is prohibited.
