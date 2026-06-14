@@ -22,7 +22,7 @@
 ```text
 final_project/ 
 │ 
-├── .env									         # OpenAI API Key 및 환경변수 설정 파일
+├── .env          # OpenAI API Key 및 환경변수 설정 파일
 ├── README.md							         # 프로젝트 설명 문서
 ├── app.py 								         # Gradio 기반 임산부 영양 추천 서비스 실행 파일
 ├── requirement.txt 							 # 프로젝트 의존성 패키지 목록
