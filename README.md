@@ -66,7 +66,7 @@ final_project/
 │	 │	 
 │	 └── scripts/
 │	 	 ├── 01_collect_data.py				        # 식약처 의약품 및 건강기능식품 공공데이터 수집·정제 모듈
-│	 	 ├── 02_create_schema.py				      # SQLite DB 생성 및 schema.sql 기반 테이블 초기화 모듈
+│	 	 ├── 02_create_schema.py				    # SQLite DB 생성 및 schema.sql 기반 테이블 초기화 모듈
 │	 	 ├── 03_load_relational_db.py			    # 전처리 완료 데이터를 관계형 DB 테이블에 적재하는 모듈
 │	 	 ├── 04_validate_evidence.py			    # 추천 근거 문장 원문 일치 및 유사도 검증 모듈
 │		 ├── 05_kdca_pdf_to_raw_json.py		    # 식이영양/정상임신관리 PDF 파일에서 json으로 변환 모듈
