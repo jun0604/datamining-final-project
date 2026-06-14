@@ -17,7 +17,42 @@
 ○ 주의사항 생성 <br>
 ○ 추천 결과 PDF 저장 <br> 
 
-# 프로젝트 구조 
+# 환경 설정
+
+○ 사용 라이브러리 버전 정보
+```text
+python==3.11
+gradio==6.15.2
+openai==2.38.0
+python-dotenv==1.2.2
+reportlab==4.5.1
+ipython==9.4.0
+requests==2.34.2
+
+numpy==1.24.3  
+pandas==2.0.3  
+matplotlib==3.7.2  
+seaborn==0.12.2
+wordcloud==1.9.3
+beautifulsoup4==4.12.2 
+selenium==4.11.2
+webdriver-manager==4.0.0
+kiwipiepy==0.16.0
+scikit-learn==1.3.0
+mlxtend==0.22.0
+```
+
+○ env 설정
+```text
+HALLYM_API_KEY=Your_api_key 
+HALLYM_MODEL=Your_api_model 
+HALLYM_BASE_URL=https://factchat-cloud.mindlogic.ai/v1/gateway 
+
+FOODSAFETY_KEY=Your_foodsafety_api_key 
+DATA_GO_KR_KEY=Your_data_go_kr_api_key
+```
+
+# 프로젝트 라이브러리 구조 
 
 ```text
 final_project/ 
