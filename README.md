@@ -74,9 +74,9 @@ final_project/
 │
 ├── recommendation/ 
 │ 	 ├── db_repository.py 					        # SQLite DB 조회 및 데이터 로드 모듈
-│ 	 ├── db_recommendation_engine.py 	           # 임산부 맞춤 영양소 추천 엔진 메인 모듈
-│ 	 ├── db_symptom_engine.py 				       # 증상/생활습관 기반 영양소 추천 규칙 처리 모듈
-│ 	 ├── db_caution_engine.py 				       # 주의사항 생성 및 영양제 추천 모듈
+│ 	 ├── db_recommendation_engine.py 	            # 임산부 맞춤 영양소 추천 엔진 메인 모듈
+│ 	 ├── db_symptom_engine.py 				        # 증상/생활습관 기반 영양소 추천 규칙 처리 모듈
+│ 	 ├── db_caution_engine.py 				        # 주의사항 생성 및 영양제 추천 모듈
 │ 	 ├── pregnancy_stage.py 					    # 임신 주차 기반 임신 단계 판정 모듈
 │ 	 ├── llm_client.py 						        # LLM 기반 복용 정보 분석 및 결과 생성 모듈
 │ 	 ├── pdf_exporter.py 					        # 추천 결과 PDF 저장 모듈
