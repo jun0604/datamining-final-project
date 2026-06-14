@@ -81,7 +81,7 @@ final_project/
 │ 	 ├── llm_client.py 						        # LLM 기반 복용 정보 분석 및 결과 생성 모듈
 │ 	 ├── pdf_exporter.py 					        # 추천 결과 PDF 저장 모듈
 │ 	 ├── trace_logger.py 					        # 추천 과정 추적 및 로그 기록 모듈
-│  	 └── utils.py 							       # 공통 유틸리티 함수 모음
+│  	 └── utils.py 							        # 공통 유틸리티 함수 모음
 │ 
 ├── ui/ 
 │ 	 ├── gradio_ui.py 						        # 사용자 입력 및 결과 출력 UI 구성
