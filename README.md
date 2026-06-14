@@ -62,7 +62,7 @@ pip install -r requirement.txt
 
 4. 환경변수 설정
 ```text
-프로젝트 루트에서 .env 파일 수
+프로젝트 루트에서 .env 파일 생성 후 개인 API 키 작성
 HALLYM_API_KEY=Your_api_key
 HALLYM_MODEL=Your_api_model
 HALLYM_BASE_URL=https://factchat-cloud.mindlogic.ai/v1/gateway
