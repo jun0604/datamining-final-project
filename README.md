@@ -39,7 +39,7 @@ final_project/
 │	 │	 └── momcafe_apriori_ruleset.csv		# STEP 4: 추천 엔진 매핑용 연관규칙 룰셋 DB
 │	 │
 │	 ├── images/
-│	 │	 ├── Figure1.png			    # 최상위 단어 빈도 워드클라우드 이미지
+│	 │	 ├── Figure1.png			     # 최상위 단어 빈도 워드클라우드 이미지
 │	 │	 └── Figure.png					  # 임신 주차별 카테고리 교차분석 히트맵 이미지
 │	 │
 │	 ├── 01_data_collection_crawling.py			# 안티크롤링 우회형 네이버 카페 데이터 수집 모듈
