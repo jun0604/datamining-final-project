@@ -91,7 +91,7 @@ final_project/
 └── logs/								            # 추천 과정 Trace 로그 저장 폴더
 ```
 
-## 데이터 수집
+# 데이터 수집
 
 ○ KDCA 임산부 건강정보
 1. 정상임신관리(임신의 진단과 관리)
@@ -107,3 +107,20 @@ final_project/
 1. 건강기능식품 품목제조 신고현황
 
 수집정보 : 제품명, 제조사, 원재료, 등록일
+
+# 자체 DB 구축
+
+SQLite 기반 관계형 데이터베이스를 구축하여 추천 규칙, 근거 정보, 의약품 및 건강기능식품 정보를 통합 관리하였습니다.
+
+| 테이블명 | 설명 |
+|----------|------|
+| evidence | 추천 근거 문장 및 출처 정보 저장 |
+| recommendation_rule | 증상 기반 영양소 추천 규칙 저장 |
+| lifestyle_weight_rule | 생활습관에 따른 영양소 가중치 규칙 저장 |
+| supplement_info | 건강기능식품 제품 정보 저장 |
+| supplement_ingredient | 건강기능식품 성분 정보 저장 |
+| medicine_info | 의약품 정보(효능, 복용법, 주의사항 등) 저장 |
+| nutrient_alias | 영양소 별칭 및 동의어 정보 저장 |
+| search_document | 원문 검색 및 근거 추출을 위한 문서 저장 |
+| recommendation_test_case | 추천 서비스 자동 검증 시나리오 저장 |
+
