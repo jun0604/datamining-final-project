@@ -28,7 +28,7 @@ final_project/
 ├── requirement.txt 							 # 프로젝트 의존성 패키지 목록
 ├── pregnancy_nutrition.db 				         # 추천 규칙, 근거, 의약품, 영양제 등 모든 정보를 저장한 SQLite DB
 ├── test_case_prove.py 						     # 추천 서비스 엔진 자동 검증 모듈
-├── test_case_prove_result.json		       # 추천 엔진 자동 검증 결과(PASS/FAIL) 저장 파일
+├── test_case_prove_result.json		             # 추천 엔진 자동 검증 결과(PASS/FAIL) 저장 파일
 ├── schema.sql							       # SQLite 관계형 DB 테이블 구조 정의 및 초기 스키마 생성 파일
 │
 ├── data_anlaysis/ 
