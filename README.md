@@ -86,22 +86,7 @@ python test_case_prove.py
 ```text
 final_project/ 
 │ 
-├── .env                                         # OpenAI API Key 및 환경변수 설정 파일
-├── README.md							         # 프로젝트 설명 문서
-├── app.py 								         # Gradio 기반 임산부 영양 추천 서비스 실행 파일
-├── requirement.txt 							 # 프로젝트 의존성 패키지 목록
-├── pregnancy_nutrition.db 				         # 추천 규칙, 근거, 의약품, 영양제 등 모든 정보를 저장한 SQLite DB
-├── test_case_prove.py 						     # 추천 서비스 엔진 자동 검증 모듈
-├── test_case_prove_result.json		             # 추천 엔진 자동 검증 결과(PASS/FAIL) 저장 파일
-├── schema.sql							         # SQLite 관계형 DB 테이블 구조 정의 및 초기 스키마 생성 파일
-│
 ├── data_anlaysis/ 
-│	 ├── data/
-│	 │	 ├── momcafe_target_data.csv 			# STEP 1: 카페 크롤링 수집 원본 데이터셋 (98건)
-│	 │	 ├── momcafe_nlp_ready.csv			    # STEP 2: 도메인 사전 기반 형태소 분석 완료본
-│	 │	 ├── momcafe_final_purified.csv			# STEP 3: 광고성 노이즈 제거 최종 정제 분석본
-│	 │	 └── momcafe_apriori_ruleset.csv		# STEP 4: 추천 엔진 매핑용 연관규칙 룰셋 DB
-│	 │
 │	 ├── images/
 │	 │	 ├── Figure1.png			      # 최상위 단어 빈도 워드클라우드 이미지
 │	 │	 └── Figure.png					  # 임신 주차별 카테고리 교차분석 히트맵 이미지
@@ -114,19 +99,8 @@ final_project/
 ├── data_process/ 
 │	 ├── data/
 │	 │	 ├──pdf/
-│	 │	 │	 ├── 식이영양(임산부)_국가건강정보포털_질병관리청.pdf					        # 식이영양 원본  PDF 파일
-│	 │	 │	 └── 정상임신관리(임신의 진단과 관리)_국가건강정보포털_질병관리청.pdf	        # 정상임신관리 원본 PDF 파일
-│	 │	 │
-│	 │	 └── raw/
-│	 │	 	 ├── mfds_medicine_easy_drug_original.json								    # 공공데이터포털(e약은요) 의약품개요정보 원본 JSON 데이터
-│	 │	 	 ├── mfds_medicine_permission_original.json							        # 공공데이터포털 의약품 제품 허가정보 원본 JSON 데이터
-│	 │	 	 ├── mfds_medicine_raw.json										            # 식약처 의약품개요정보 및 의약품 허가정보 원본 데이터
-│	 │	 	 ├── mfds_supplement_raw.json										        # 식약처 건강기능식품 품목제조 신고사항 원본 데이터
-│	 │	 	 ├── 식이영양(임산부)_국가건강정보포털_질병관리청_raw.json					    # 임산부 식이영양 관리 정보 관련 json 파일
-│	 │	 	 ├── 정상임신관리(임신의_진단과_관리)_국가건강정보포털_질병관리청_raw.json	    # 정상임신관리 관련 json 파일
-│	 │	 	 ├── symptom_nutrient.csv										            # 근거 검증(PASS) 완료된 최종 증상-영양소 추천 데이터
-│	 │	 	 └── symptom_nutrient_with_validation.csv								    # 근거 검증 결과(PASS/CHECK) 포함 전처리 검증용 데이터
-│	 │	 
+│	 │	    ├── 식이영양(임산부)_국가건강정보포털_질병관리청.pdf					        # 식이영양 원본  PDF 파일
+│	 │	    └── 정상임신관리(임신의 진단과 관리)_국가건강정보포털_질병관리청.pdf	        # 정상임신관리 원본 PDF 파일 
 │	 │	 
 │	 └── scripts/
 │	 	 ├── 01_collect_data.py				        # 식약처 의약품 및 건강기능식품 공공데이터 수집·정제 모듈
@@ -152,7 +126,13 @@ final_project/
 │ 	 └── logo.png 						            # 홈페이지 첫 화면 로고 이미지
 │ 	 
 ├── exports/ 								        # PDF 추천 결과 저장 폴더
-└── logs/								            # 추천 과정 Trace 로그 저장 폴더
+├──  logs/								            # 추천 과정 Trace 로그 저장 폴더
+│ 
+├── README.md							         # 프로젝트 설명 문서
+├── app.py 								         # Gradio 기반 임산부 영양 추천 서비스 실행 파일
+├── requirement.txt 							 # 프로젝트 의존성 패키지 목록
+├── test_case_prove.py 						     # 추천 서비스 엔진 자동 검증 모듈
+└── schema.sql							         # SQLite 관계형 DB 테이블 구조 정의 및 초기 스키마 생성 파일
 ```
 
 # 데이터 수집
