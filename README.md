@@ -59,7 +59,7 @@ final_project/
 │	 │	 	 ├── mfds_medicine_raw.json										            # 식약처 의약품개요정보 및 의약품 허가정보 원본 데이터
 │	 │	 	 ├── mfds_supplement_raw.json										        # 식약처 건강기능식품 품목제조 신고사항 원본 데이터
 │	 │	 	 ├── 식이영양(임산부)_국가건강정보포털_질병관리청_raw.json					    # 임산부 식이영양 관리 정보 관련 json 파일
-│	 │	 	 ├── 정상임신관리(임신의_진단과_관리)_국가건강정보포털_질병관리청_raw.json		 # 정상임신관리 관련 json 파일
+│	 │	 	 ├── 정상임신관리(임신의_진단과_관리)_국가건강정보포털_질병관리청_raw.json	 # 정상임신관리 관련 json 파일
 │	 │	 	 ├── symptom_nutrient.csv										           # 근거 검증(PASS) 완료된 최종 증상-영양소 추천 데이터
 │	 │	 	 └── symptom_nutrient_with_validation.csv								   # 근거 검증 결과(PASS/CHECK) 포함 전처리 검증용 데이터
 │	 │	 
