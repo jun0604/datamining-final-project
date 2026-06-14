@@ -19,6 +19,7 @@
 
 # 프로젝트 구조 
 
+'''text
 final_project/ <br>
 │ <br>
 ├── .env									                                                       # OpenAI API Key 및 환경변수 설정 파일 <br>
@@ -88,3 +89,4 @@ final_project/ <br>
 │ <br>
 ├── exports/ 								                                                     # PDF 추천 결과 저장 폴더 <br>
 └── logs/								                                                         # 추천 과정 Trace 로그 저장 폴더 <br>
+'''
