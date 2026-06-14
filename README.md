@@ -45,7 +45,7 @@ final_project/
 │	 ├── 01_data_collection_crawling.py			# 안티크롤링 우회형 네이버 카페 데이터 수집 모듈
 │	 ├── 02_text_data_preprocessing.py			# 사용자 정의 사전 기반 구어체 표준화 NLP 모듈
 │	 ├── 03_ad_post_filtering.py				# 정규표현식 기반 상업성 스팸 데이터 격리 차단 모듈
-│	 └── 04_data_mining_clustering.py			 # K-Means 소비자 세분화 및 Apriori 알고리즘 모델링 모듈
+│	 └── 04_data_mining_clustering.py			# K-Means 소비자 세분화 및 Apriori 알고리즘 모델링 모듈
 │
 ├── data_process/ 
 │	 ├── data/
